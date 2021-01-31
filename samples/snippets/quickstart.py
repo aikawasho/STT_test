@@ -13,7 +13,7 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-
+import os
 
 def run_quickstart():
     # [START speech_quickstart]
@@ -49,4 +49,5 @@ def run_quickstart():
 
 
 if __name__ == "__main__":
+    os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = '/Users/shota/Downloads/My First Project-06971ca6a80e.json'
     run_quickstart()
